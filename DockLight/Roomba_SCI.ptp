@@ -1,0 +1,129 @@
+VERSION
+8
+
+COMMSETTINGS
+0
+COM3
+COM2
+115200
+2
+248
+4
+0
+0
+
+COMMDISPLAY
+0
+
+SEND
+0
+Enter START Mode
+80
+0
+1
+
+SEND
+1
+Enter SAFE Mode
+83
+0
+5
+
+SEND
+2
+Enter CONTROL Mode
+82
+0
+5
+
+SEND
+3
+Enter FULL Mode
+84
+0
+5
+
+SEND
+4
+Turn Power Off
+85
+0
+5
+
+SEND
+5
+--------------------
+
+0
+5
+
+SEND
+6
+Read All Sensors
+8E 00
+1
+1
+
+SEND
+7
+Read sensor packet 1
+8E 01
+0
+5
+
+SEND
+8
+Press CLEAN
+87
+0
+5
+
+SEND
+9
+--------------------
+
+0
+5
+
+SEND
+10
+Drive: Go Straight
+89 00 14 80 00
+0
+5
+
+SEND
+11
+Drive: Turn
+89 00 00 00 01
+0
+5
+
+SEND
+12
+---BEEP---------
+
+0
+5
+
+SEND
+13
+1
+80 84
+0
+5
+
+SEND
+14
+2
+8C 00 01 3E 20
+0
+5
+
+SEND
+15
+3
+8D 00
+0
+5
+
